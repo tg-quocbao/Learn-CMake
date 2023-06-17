@@ -1,0 +1,10 @@
+^F:\BAO_RD\REPOS\LEARN-CMAKE\HELLOWORLD\BUILD\CMAKEFILES\5F45A1915A12846E7F7DBCDEEB293FF7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Bao_RD/Repos/Learn-CMake/HelloWorld -BF:/Bao_RD/Repos/Learn-CMake/HelloWorld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Bao_RD/Repos/Learn-CMake/HelloWorld/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

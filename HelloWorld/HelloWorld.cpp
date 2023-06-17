@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     printf("\nHello, World!");
 
     printf("\nThe square of %d is %d", x, square(x));
-    printf("\nThe square root of %lf is %lf", y, root(y));
+    printf("\nThe square root of %lg is %.4lf", y, root(y));
 
     return 0;
 }

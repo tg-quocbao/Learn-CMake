@@ -337,7 +337,7 @@ A student with name Joe
 ## Lời kết
 Các ví dụ ở trên hi vọng đã mang lại cho các bạn có cái nhìn ngắn gọn và dễ hiểu về công dụng và cách sử dụng cơ bản của CMake. Để có thể tìm hiểu sâu hơn về Cmake và cập nhật những thông tin mới nhất thì các bạn có thể ghé qua trang `www.cmake.org`.
 
-## Nguồn:
+## Nguồn
 - https://viblo.asia/p/dao-dau-voi-cmake-thong-qua-vi-du-07LKXNbelV4#_loi-ket-6
 - http://derekmolloy.ie/hello-world-introductions-to-cmake/#Source_Code_for_this_Discussion
 
